@@ -21,9 +21,11 @@ Ensure that you have downloaded SFML.
 - The game is divided into three difficulty levels (Beginner, Intermediate, and Advanced) which can be selected in the main menu.
 - The game includes an escape menu with resume, restart, settings, help, return to main, and exit game functionalities.
 - The settings section allows users to toggle music and sound effects and adjust their volume.
+- The game includes file handling functionality, allowing players to save and load the top 10 highscores.
 
 ### Additional Features
 
+- The player starts the game with 3 lives.
 - Laser hits on a centipede segment result in the segment splitting into two pieces, each continuing independently.
 - The centipede starts at a random location on the screen and travels to the left side.
 - Once the centipede reaches the bottom of the screen, it moves back and forth within the player area, with one-segment "head" centipedes periodically appearing from the side.
@@ -35,3 +37,9 @@ Ensure that you have downloaded SFML.
 - The first-level centipede has 12 segments, and each subsequent level detaches one segment, creating a separate fast-moving "head" centipede.
 
 Enjoy the game!
+
+![MainMenu](ImagesGitHub/1.png)
+![BeginnerGameplay](ImagesGitHub/2.png)
+![EscapeMenu](ImagesGitHub/3.png)
+![AdvanceGameplay](ImagesGitHub/4.png)
+![Deathscreen](ImagesGitHub/5.png)
