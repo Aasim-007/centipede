@@ -22,7 +22,7 @@ Ensure that you have downloaded SFML.
 - The game includes an escape menu with resume, restart, settings, help, return to main, and exit game functionalities.
 - The settings section allows users to toggle music and sound effects and adjust their volume.
 
-# Additional Features
+### Additional Features
 
 - Laser hits on a centipede segment result in the segment splitting into two pieces, each continuing independently.
 - The centipede starts at a random location on the screen and travels to the left side.
