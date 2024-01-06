@@ -22,12 +22,12 @@ Ensure that you have downloaded SFML.
 - The game includes an escape menu with resume, restart, settings, help, return to main, and exit game functionalities.
 - The settings section allows users to toggle music and sound effects and adjust their volume.
 
-## Additional Features
+# Additional Features
 
 - Laser hits on a centipede segment result in the segment splitting into two pieces, each continuing independently.
 - The centipede starts at a random location on the screen and travels to the left side.
 - Once the centipede reaches the bottom of the screen, it moves back and forth within the player area, with one-segment "head" centipedes periodically appearing from the side.
-- If the fighter hits the centipede with the laser, it creates a poisonous mushroom. Contact with the poisonous mushroom results in the fighter's demise.
+- In player area if the fighter hits the centipede with the laser, it creates a poisonous mushroom. Contact with the poisonous mushroom results in the fighter's demise.
 - The speed of the centipede doubles in each advanced level.
 - If a centipede fragment consumes 5 mushrooms without being hit by the laser, its size doubles.
 - Upon destroying all centipede segments, a new level begins, introducing a new centipede at the top of the screen and additional mushrooms.
