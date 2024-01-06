@@ -38,6 +38,8 @@ Ensure that you have downloaded SFML.
 
 Enjoy the game!
 
+<br>
+
 ![MainMenu](ImagesGitHub/1.png)
 ![BeginnerGameplay](ImagesGitHub/2.png)
 ![EscapeMenu](ImagesGitHub/3.png)
