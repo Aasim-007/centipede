@@ -106,45 +106,45 @@ int main()
 	
 	centi.setFont(font1);
 	centi.setString("Centipede");
-    centi.setCharacterSize(200);
-    centi.setFillColor(sf::Color::White);
-    centi.setOutlineColor(sf::Color(127, 219, 132));
-    centi.setOutlineThickness(2);
-    centi.setPosition(80, 200);
+    	centi.setCharacterSize(200);
+  	centi.setFillColor(sf::Color::White);
+    	centi.setOutlineColor(sf::Color(127, 219, 132));
+    	centi.setOutlineThickness(2);
+    	centi.setPosition(80, 200);
 	
 	modetext.setFont(font2);
 	modetext.setString("Select Difficulty Mode :");
-    modetext.setCharacterSize(30);
-    modetext.setFillColor(sf::Color(167, 231, 225));
+    	modetext.setCharacterSize(30);
+    	modetext.setFillColor(sf::Color(167, 231, 225));
 	modetext.setPosition(335, 525);
 	
 	beginner.setFont(font1);
 	beginner.setString("Beginner");
 	beginner.setPosition(150, 600);
-    beginner.setCharacterSize(35);
-    beginner.setFillColor(sf::Color::White);
+    	beginner.setCharacterSize(35);
+    	beginner.setFillColor(sf::Color::White);
 	
 	intermediate.setFont(font1);
 	intermediate.setString("Intermediate");
 	intermediate.setPosition(380, 600);
-    intermediate.setCharacterSize(35);
-    intermediate.setFillColor(sf::Color::White);
+    	intermediate.setCharacterSize(35);
+    	intermediate.setFillColor(sf::Color::White);
 	
 	expert.setFont(font1);
 	expert.setString("Expert");
 	expert.setPosition(670, 600);
-    expert.setCharacterSize(35);
-    expert.setFillColor(sf::Color::White);
+    	expert.setCharacterSize(35);
+    	expert.setFillColor(sf::Color::White);
 	
 	maintext.setFont(font1);
 	maintext.setCharacterSize(35);
 	maintext.setFillColor(sf::Color(127, 219, 132));
 	
 	notetext.setFont(font3);
-    notetext.setCharacterSize(20);
-    notetext.setFillColor(sf::Color::White);
-    notetext.setOutlineColor(sf::Color::White);
-    notetext.setOutlineThickness(0.2);
+    	notetext.setCharacterSize(20);
+    	notetext.setFillColor(sf::Color::White);
+   	notetext.setOutlineColor(sf::Color::White);
+    	notetext.setOutlineThickness(0.2);
 	notetext.setPosition(335, 525);
 	
 	
@@ -156,94 +156,94 @@ int main()
 	state_music.setFont(font2);
 	state_music.setString("State : ");
 	state_music.setPosition(200, 425);
-    state_music.setCharacterSize(35);
-    state_music.setFillColor(sf::Color(167, 231, 225));
+    	state_music.setCharacterSize(35);
+    	state_music.setFillColor(sf::Color(167, 231, 225));
     
-    mu_vol.setFont(font2);
+    	mu_vol.setFont(font2);
 	mu_vol.setString("Volume : ");
 	mu_vol.setPosition(200, 480);
-    mu_vol.setCharacterSize(35);
-    mu_vol.setFillColor(sf::Color(167, 231, 225));
+    	mu_vol.setCharacterSize(35);
+    	mu_vol.setFillColor(sf::Color(167, 231, 225));
     
-    state_music_t.setFont(font1);
+    	state_music_t.setFont(font1);
 	state_music_t.setString("ON");
 	state_music_t.setPosition(310, 425);
-    state_music_t.setCharacterSize(35);
-    state_music_t.setFillColor(sf::Color::White);
+    	state_music_t.setCharacterSize(35);
+    	state_music_t.setFillColor(sf::Color::White);
     
-    mu_vol_t.setFont(font1);
+    	mu_vol_t.setFont(font1);
 	mu_vol_t.setString("50");
 	mu_vol_t.setPosition(350, 480);
-    mu_vol_t.setCharacterSize(35);
-    mu_vol_t.setFillColor(sf::Color::White);
+    	mu_vol_t.setCharacterSize(35);
+    	mu_vol_t.setFillColor(sf::Color::White);
     
-    state_se.setFont(font2);
+    	state_se.setFont(font2);
 	state_se.setString("State : ");
 	state_se.setPosition(200, 595);
-    state_se.setCharacterSize(35);
-    state_se.setFillColor(sf::Color(167, 231, 225));
+    	state_se.setCharacterSize(35);
+    	state_se.setFillColor(sf::Color(167, 231, 225));
 	
 	se_vol.setFont(font2);
 	se_vol.setString("Volume : ");
 	se_vol.setPosition(200, 650);
-    se_vol.setCharacterSize(35);
-    se_vol.setFillColor(sf::Color(167, 231, 225));
+    	se_vol.setCharacterSize(35);
+    	se_vol.setFillColor(sf::Color(167, 231, 225));
     
-    state_se_t.setFont(font1);
+    	state_se_t.setFont(font1);
 	state_se_t.setString("OFF");
 	state_se_t.setPosition(310, 595);
-    state_se_t.setCharacterSize(35);
-    state_se_t.setFillColor(sf::Color::White);
+    	state_se_t.setCharacterSize(35);
+    	state_se_t.setFillColor(sf::Color::White);
     
-    se_vol_t.setFont(font1);
+    	se_vol_t.setFont(font1);
 	se_vol_t.setString("95");
 	se_vol_t.setPosition(350, 650);
-    se_vol_t.setCharacterSize(35);
-    se_vol_t.setFillColor(sf::Color::White);
+    	se_vol_t.setCharacterSize(35);
+    	se_vol_t.setFillColor(sf::Color::White);
 	
 	title.setFont(font1);
 	title.setString("High Scores");//GameOver.exe
-    title.setCharacterSize(140);
-    title.setFillColor(sf::Color::White);
-    title.setOutlineColor(sf::Color(127, 219, 132));
-    title.setOutlineThickness(1.5);
-    title.setPosition(160, 75);
+    	title.setCharacterSize(140);
+    	title.setFillColor(sf::Color::White);
+    	title.setOutlineColor(sf::Color(127, 219, 132));
+    	title.setOutlineThickness(1.5);
+    	title.setPosition(160, 75);
     
-    game.setFont(font1);
+    	game.setFont(font1);
 	game.setString("Game");
-    game.setCharacterSize(150);
-    game.setFillColor(sf::Color::White);
-    game.setOutlineColor(sf::Color(127, 219, 132));
-    game.setOutlineThickness(1.5);
-    game.setPosition(500, 250);
+    	game.setCharacterSize(150);
+    	game.setFillColor(sf::Color::White);
+    	game.setOutlineColor(sf::Color(127, 219, 132));
+    	game.setOutlineThickness(1.5);
+    	game.setPosition(500, 250);
 	
 	paused.setFont(font1);
 	paused.setString("Paused");
-    paused.setCharacterSize(150);
-    paused.setFillColor(sf::Color::White);
-    paused.setOutlineColor(sf::Color(127, 219, 132));
-    paused.setOutlineThickness(1.5);
-    paused.setPosition(400, 380);
+    	paused.setCharacterSize(150);
+    	paused.setFillColor(sf::Color::White);
+    	paused.setOutlineColor(sf::Color(127, 219, 132));
+    	paused.setOutlineThickness(1.5);
+    	paused.setPosition(400, 380);
 	
 	resume.setFont(font1);
 	resume.setString("Resume");
 	resume.setPosition(150, 200);
-    resume.setCharacterSize(42);
-    resume.setFillColor(sf::Color::White);
+    	resume.setCharacterSize(42);
+    	resume.setFillColor(sf::Color::White);
 
 	restart.setFont(font1);
 	restart.setString("Restart");
 	restart.setPosition(150, 285);
-    restart.setCharacterSize(42);
-    restart.setFillColor(sf::Color::White);
+    	restart.setCharacterSize(42);
+    	restart.setFillColor(sf::Color::White);
     
-    restarttxt.setFont(font3);
+    	restarttxt.setFont(font3);
 	restarttxt.setString("Move your Mouse Or Press any Key \n\t\t\t\t\tTo continue");
-    restarttxt.setCharacterSize(35);
-    restarttxt.setFillColor(sf::Color(167, 231, 225));
+    	restarttxt.setCharacterSize(35);
+    	restarttxt.setFillColor(sf::Color(167, 231, 225));
 	restarttxt.setPosition(185, 490);
     
-    sf::Texture restartimg;
+    	sf::Texture restartimg;
 	sf::Sprite Restartimg;
 	restartimg.loadFromFile("Textures/Move_mouse.png");
 	Restartimg.setTexture(restartimg);
@@ -270,43 +270,43 @@ int main()
 	settings.setFont(font1);
 	settings.setString("Settings");
 	settings.setPosition(150,370);
-    settings.setCharacterSize(42);
-    settings.setFillColor(sf::Color::White);
+    	settings.setCharacterSize(42);
+    	settings.setFillColor(sf::Color::White);
     
-    help.setFont(font1);
+    	help.setFont(font1);
 	help.setString("Help");
 	help.setPosition(150,455);
-    help.setCharacterSize(42);
-    help.setFillColor(sf::Color::White);
+    	help.setCharacterSize(42);
+    	help.setFillColor(sf::Color::White);
 	
 	highscores.setFont(font1);
 	highscores.setString("Highscores");
 	highscores.setPosition(150,540);
-    highscores.setCharacterSize(42);
-    highscores.setFillColor(sf::Color::White);
+    	highscores.setCharacterSize(42);
+    	highscores.setFillColor(sf::Color::White);
     
-    return_to_main.setFont(font1);
+    	return_to_main.setFont(font1);
 	return_to_main.setString("Return To Main");
 	return_to_main.setPosition(150,625);
-    return_to_main.setCharacterSize(42);
-    return_to_main.setFillColor(sf::Color::White);
+    	return_to_main.setCharacterSize(42);
+    	return_to_main.setFillColor(sf::Color::White);
 	
 	exit.setFont(font1);
 	exit.setString("Exit Game");
 	exit.setPosition(150,710);
-    exit.setCharacterSize(42);
-    exit.setFillColor(sf::Color(255, 108, 108));
+    	exit.setCharacterSize(42);
+    	exit.setFillColor(sf::Color(255, 108, 108));
     
-    back.setFont(font1);
+    	back.setFont(font1);
 	back.setString("Back");
 	back.setPosition(67,850);
-    back.setCharacterSize(42);
-    back.setFillColor(sf::Color::White);
+    	back.setCharacterSize(42);
+    	back.setFillColor(sf::Color::White);
     
-    esctext.setFont(font1);
+    	esctext.setFont(font1);
 	esctext.setCharacterSize(42);
 	esctext.setFillColor(sf::Color(255, 108, 108, 0));
-    esctext.setOutlineThickness(0.75);
+    	esctext.setOutlineThickness(0.75);
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// FOLLOWING CODE IS INTITIALZING DIFFERENT THING //////////////////////////////////////////////////////////////////////////
@@ -315,9 +315,9 @@ int main()
 	sf::Text sco;
 	sco.setFont(font4);
 	sco.setString(std::to_string(score));
-    sco.setCharacterSize(30);
-    sco.setFillColor(sf::Color::White);
-    sco.setPosition(10,0);
+    	sco.setCharacterSize(30);
+    	sco.setFillColor(sf::Color::White);
+    	sco.setPosition(10,0);
 	
 	// Initializing Background Music.
 	sf::Music bgMusic2;
@@ -339,10 +339,10 @@ int main()
 	int level=1;
 	sf::Text leveltxt;
 	leveltxt.setFont(font4);
-    leveltxt.setCharacterSize(180);
-    leveltxt.setPosition(225, 360);
+    	leveltxt.setCharacterSize(180);
+    	leveltxt.setPosition(225, 360);
     
-    // Initializing levelup Sound Effects	
+    	// Initializing levelup Sound Effects	
 	sf::SoundBuffer levelup_music;
 	levelup_music.loadFromFile("Sound Effects/1up.wav");
 	sf::Sound levelup_Music;
@@ -357,13 +357,13 @@ int main()
 	sf::Text text,nametxt;
 	text.setFont(font2);
 	text.setCharacterSize(42);
-    text.setFillColor(sf::Color::White);
+    	text.setFillColor(sf::Color::White);
     
 	nametxt.setFont(font2);
 	nametxt.setCharacterSize(42);
-    nametxt.setFillColor(sf::Color::White);
+    	nametxt.setFillColor(sf::Color::White);
     
-    sf::Texture ElementT;
+    	sf::Texture ElementT;
 	sf::Sprite ElementS;
 	ElementT.loadFromFile("Textures/Element.png");
 	ElementS.setTexture(ElementT);
@@ -513,15 +513,15 @@ int main()
 	
 	names.setFont(font4);
 	names.setPosition(300,315);
-    names.setCharacterSize(35);
-    names.setFillColor(sf::Color(167, 231, 225));
+    	names.setCharacterSize(35);
+    	names.setFillColor(sf::Color(167, 231, 225));
     
 	highscores_int.setFont(font4);
 	highscores_int.setPosition(575,315);
-    highscores_int.setCharacterSize(35);
-    highscores_int.setFillColor(sf::Color::White);
+    	highscores_int.setCharacterSize(35);
+    	highscores_int.setFillColor(sf::Color::White);
     
-    // File initialization 
+	// File initialization 
 	highsco_file.open("highscores.txt");
 	for (int i=0;i<10;i++){
 		highsco_file >> name[i];
@@ -574,8 +574,8 @@ int main()
 			if(Restart) centi.setString("Get Ready");
 			window.draw(backgroundSprite);
 			window.draw(centi);			
-			if(Restart)	window.draw(restarttxt); //Display if only restart
-			if(Restart)	window.draw(Restartimg); //Display if only restart
+			if(Restart) window.draw(restarttxt); //Display if only restart
+			if(Restart) window.draw(Restartimg); //Display if only restart
 			if(!Restart) window.draw(modetext);
 			if(!Restart) window.draw(notetext);
 			if(!Restart) window.draw(beginner);
@@ -605,28 +605,28 @@ int main()
 				}
 				if (Restart || screen1.type == sf::Event::KeyReleased) {
 					if (screen1.key.code == sf::Keyboard::Right || screen1.key.code == sf::Keyboard::Up) {
-                        if (sounde_on) Menu_Button.play();
-                        Main_option += 1;
-                        if(Main_option == 4) Main_option = 1;
-                    }
-                    if (screen1.key.code == sf::Keyboard::Left|| screen1.key.code == sf::Keyboard::Down) {
-                        if (sounde_on) Menu_Button.play();
-                        Main_option -= 1;
-                        if(Main_option == 0) Main_option = 3;
-                    }
-                    if (Restart || screen1.key.code == sf::Keyboard::Enter) {
-                    	if (sounde_on) Enter_Button.play();
-                    	Show_Main=0;
-                    	Restart=0;
-                    	playerTexture.loadFromFile("Textures/player.png");
-                    	bulletTexture.loadFromFile("Textures/bullet.png");
-                    	mushroomTexture.loadFromFile("Textures/mushroom.png");
-                    	body_centiTexture.loadFromFile("Textures/c_body_left_walk.png");
+                        			if (sounde_on) Menu_Button.play();
+                        			Main_option += 1;
+                        			if(Main_option == 4) Main_option = 1;
+                    			}
+                    			if (screen1.key.code == sf::Keyboard::Left|| screen1.key.code == sf::Keyboard::Down) {
+                        			if (sounde_on) Menu_Button.play();
+                       		 		Main_option -= 1;
+                        			if(Main_option == 0) Main_option = 3;
+                    			}
+                    			if (Restart || screen1.key.code == sf::Keyboard::Enter) {
+                    				if (sounde_on) Enter_Button.play();
+                    				Show_Main=0;
+                    				Restart=0;
+                    				playerTexture.loadFromFile("Textures/player.png");
+                    				bulletTexture.loadFromFile("Textures/bullet.png");
+                    				mushroomTexture.loadFromFile("Textures/mushroom.png");
+                    				body_centiTexture.loadFromFile("Textures/c_body_left_walk.png");
 						head_centiTexture.loadFromFile("Textures/c_head_left_walk.png");
 						fleaTexture.loadFromFile("Textures/flea.png");
                     	
-                    	if (Main_option==1){
-                    		backgroundTexture.loadFromFile("Textures/grass.png");
+                    				if (Main_option==1){
+                    					backgroundTexture.loadFromFile("Textures/grass.png");
 							backgroundSprite.setTexture(backgroundTexture);
 							bgMusic.stop();
 							bgMusic.openFromFile("Music/magical_journey.ogg");
@@ -634,9 +634,9 @@ int main()
 							bulletmusic.loadFromFile("Sound Effects/shoot3.wav");
 							leveltxt.setFillColor(sf::Color(255, 255, 0, 255 * 0.20));
 							centi_speed = 1024;
-                    	}
-                    	else if (Main_option==2){
-                    		backgroundTexture.loadFromFile("Textures/rock.png");
+                    				}
+                    				else if (Main_option==2){
+                    					backgroundTexture.loadFromFile("Textures/rock.png");
 							backgroundSprite.setTexture(backgroundTexture);
 							bgMusic.openFromFile("Music/risk.ogg");
 							if (music_on) bgMusic.play();
@@ -644,7 +644,7 @@ int main()
 							leveltxt.setFillColor(sf::Color(196, 138, 71, 255 * 0.20));
 							flea[exists] = 0;	flea_speed = 512/8;
 							scorpion[exists] = 0;	scorpion_speed=95;
-							
+					
 							changeSprite_color(playerTexture,sf::Color(253, 198, 72), sf::Color::White,sf::Color(253, 198, 72));//changing texture of player
 							changeSprite_color(bulletTexture,sf::Color(253, 198, 72), sf::Color(128,128,0),sf::Color::Red);//changing texture of Bullet
 							changeSprite_color(mushroomTexture,sf::Color::White, sf::Color(128,128,0),sf::Color(128,128,0));//changing texture of mushrooms
@@ -652,9 +652,9 @@ int main()
 							changeSprite_color(head_centiTexture,sf::Color(196, 138, 71), sf::Color::White,sf::Color::White);//changing texture of centipede's head
 							changeSprite_color(fleaTexture,sf::Color(196, 138, 71), sf::Color::White,sf::Color::White);//changing texture of flea
 							
-  	                  	}
-                    	else if (Main_option==3){
-                    		backgroundTexture.loadFromFile("Textures/lava.png");
+  	     				        }
+                				else if (Main_option==3){
+                    					backgroundTexture.loadFromFile("Textures/lava.png");
 							backgroundSprite.setTexture(backgroundTexture);
 							bgMusic.stop();
 							bgMusic.openFromFile("Music/Music3.ogg");
@@ -669,41 +669,41 @@ int main()
 							changeSprite_color(mushroomTexture,sf::Color::White, sf::Color::Red,sf::Color::Black);//changing texture of mushrooms
 							changeSprite_color(body_centiTexture,sf::Color::Red, sf::Color::Yellow,sf::Color::White);//changing texture of centipede's body
 							changeSprite_color(head_centiTexture,sf::Color::Red, sf::Color::Black,sf::Color::White);//changing texture of centipede's head		
-                    		changeSprite_color(fleaTexture,sf::Color::Red, sf::Color::Black,sf::Color::White);//changing texture of flea
+                    					changeSprite_color(fleaTexture,sf::Color::Red, sf::Color::Black,sf::Color::White);//changing texture of flea
                     		
-                    		//-----------------------SPIDER-------------------------//
+                    					//-----------------------SPIDER-------------------------//
 							spider[exists] = 0;
 							spider_speed = 512/4; 
 							spiderTexture.loadFromFile("Textures/spider_and_score.png");
 							changeSprite_color(spiderTexture,sf::Color::Red, sf::Color::Black,sf::Color::White);
 							spiderSprite.setTexture(spiderTexture);
                     	
-                    	}
+                    				}
                     	
-                    	//----------------------------------------------------------
-                    	playerSprite.setTexture(playerTexture);
+                    				//----------------------------------------------------------
+                    				playerSprite.setTexture(playerTexture);
 						playerSprite.setTextureRect(sf::IntRect(0, 0, boxPixelsX, boxPixelsY));
 						bulletSprite.setTexture(bulletTexture);
 						bulletSprite.setTextureRect(sf::IntRect(0, 0, boxPixelsX, boxPixelsY));
-             			mushroomSprite.setTexture(mushroomTexture);
+             					mushroomSprite.setTexture(mushroomTexture);
 						body_centiSprite.setTexture(body_centiTexture);
 						head_centiSprite.setTexture(head_centiTexture);
 						fleaSprite.setTexture(fleaTexture);
 						
 						      	
-                    	//SPAWNING PLAYER -------------------------------------------
-                    	player[x] = (gameColumns / 2) * boxPixelsX;
+                    				//SPAWNING PLAYER -------------------------------------------
+                  			  	player[x] = (gameColumns / 2) * boxPixelsX;
 						player[y] = (gameColumns * 3 / 4) * boxPixelsY;
                     	
-                    	//SPAWNING BULLET -------------------------------------------
-                    	bullet[x] = player[x];
+                			    	//SPAWNING BULLET -------------------------------------------
+             				       	bullet[x] = player[x];
 						bullet[y] = player[y] - boxPixelsY;
 						bullet[exists] = false;
                     	
-                    	//SPAWNING MUSHROOMS ----------------------------------------
-                    	sco.setString(std::to_string(score));
-                    	initial_mushrooms = 20+rand()%11;
-                    	total_mushrooms = initial_mushrooms;
+                			    	//SPAWNING MUSHROOMS ----------------------------------------
+           			         	sco.setString(std::to_string(score));
+        	        		    	initial_mushrooms = 20+rand()%11;
+                	    			total_mushrooms = initial_mushrooms;
 						for(int i=0;i<total_mushrooms;i++)
 							{is_mush_poisonous[i]=0;currentmush_shape[i]=0;}
 						for (int i=0;i<total_mushrooms;i++){
@@ -733,7 +733,7 @@ int main()
 						centipede[0][is_head] = 1;
 						centipede[0][x] = rand() % 30;
 						centipede[0][y] = rand() % 20;
-                    }
+                 			}
 				}
 			}
 		}
@@ -782,114 +782,112 @@ int main()
 				}
 				if (screen1.type == sf::Event::KeyReleased) {
 					if (screen1.key.code == sf::Keyboard::Right || screen1.key.code == sf::Keyboard::Down) {
-                        if (sounde_on) Menu_Button.play();
-                        Escape_option += 1;
-                        esctext_x+=85;
-                        if(Escape_option == 8) {
-                        	Escape_option = 1;
-                        	esctext_x=200;
-                        }
-                    }
-                    if (screen1.key.code == sf::Keyboard::Left|| screen1.key.code == sf::Keyboard::Up) {
-                        if (sounde_on) Menu_Button.play();
-                        Escape_option -= 1;
-                        esctext_x -= 85;
-                        if(Escape_option == 0) {
-                        	Escape_option = 7;
-                        	esctext_x=710;	
-                        } 
-                    }
-                    if (screen1.key.code == sf::Keyboard::Enter) {
-                    	if (sounde_on) Enter_Button.play();
-                    	if (Escape_option==1) {
-                    		Show_Escape=0;
-                    		if (music_on) bgMusic2.stop();
-                    		if (music_on) bgMusic.play();
-                    	} 
-                    	else if (Escape_option==2) {
-                    		Show_Escape=0;
-                    		Show_Main=1;
-                    		Restart=1;
-                    		if (music_on) bgMusic2.stop();
-                    		if (music_on) bgMusic.play();
-                    	} 
-                    	else if (Escape_option==3) {
-                    		Show_Escape_2=1;
-                    		settings.setString("Music");
-                    		highscores.setString("Sound Effects");
-                    		title.setString("Settings");//GameOver.exe
-						    title.setCharacterSize(220);
+                        			if (sounde_on) Menu_Button.play();
+                        			Escape_option += 1;
+                        			esctext_x+=85;
+                        			if(Escape_option == 8) {
+                       			 		Escape_option = 1;
+                        				esctext_x=200;
+                        			}
+                   		 }
+                   		 if (screen1.key.code == sf::Keyboard::Left|| screen1.key.code == sf::Keyboard::Up) {
+                        		if (sounde_on) Menu_Button.play();
+                        		Escape_option -= 1;
+                        		esctext_x -= 85;
+                        		if(Escape_option == 0) {
+                        			Escape_option = 7;
+                        			esctext_x=710;	
+                        		} 
+                    		}
+                    		if (screen1.key.code == sf::Keyboard::Enter) {
+                    			if (sounde_on) Enter_Button.play();
+                    			if (Escape_option==1) {
+                    				Show_Escape=0;
+                    				if (music_on) bgMusic2.stop();
+                    				if (music_on) bgMusic.play();
+                    			} 
+                    			else if (Escape_option==2) {
+                    				Show_Escape=0;
+                    				Show_Main=1;
+                    				Restart=1;
+                    				if (music_on) bgMusic2.stop();
+                    				if (music_on) bgMusic.play();
+                    			} 
+                    			else if (Escape_option==3) {
+                    				Show_Escape_2=1;
+                    				settings.setString("Music");
+                    				highscores.setString("Sound Effects");
+                    				title.setString("Settings");//GameOver.exe
+						title.setCharacterSize(220);
     						title.setPosition(115, 55);
     						//state_music, state_se, mu_vol, state_music_t, mu_vol_t, se_vol, state_se_t, se_vol_t
-                    		while (Show_Escape_2) {
-                    			window.draw(Settingsbg);
-                    			window.draw(title);
-                    			window.draw(back);
-                    			window.draw(esctext);
-                    			window.draw(settings);
-                    			window.draw(highscores);
-                    			window.draw(state_music);
-                    			window.draw(state_se);
-                    			window.draw(mu_vol);
-                    			window.draw(state_music_t);
-                    			window.draw(mu_vol_t);
-                    			window.draw(se_vol);
-                    			window.draw(state_se_t);
-                    			window.draw(se_vol_t);
-                    			window.display();
-								window.clear();
-								if (Escape_option_2==1){
-									esctext.setCharacterSize(35);
-									esctext.setString(music_on?"ON":"OFF");	
-									esctext.setPosition(310, 425);
+                    				while (Show_Escape_2) {
+                    					window.draw(Settingsbg);
+                    					window.draw(title);
+                    					window.draw(back);
+                    					window.draw(esctext);
+                    					window.draw(settings);
+                    					window.draw(highscores);
+                    					window.draw(state_music);
+                    					window.draw(state_se);
+                    					window.draw(mu_vol);
+                    					window.draw(state_music_t);
+                    					window.draw(mu_vol_t);
+                    					window.draw(se_vol);
+                    					window.draw(state_se_t);
+                    					window.draw(se_vol_t);
+                    					window.display();
+							window.clear();
+							if (Escape_option_2==1){
+								esctext.setCharacterSize(35);
+								esctext.setString(music_on?"ON":"OFF");	
+								esctext.setPosition(310, 425);
+							}
+							else if (Escape_option_2==2){
+								esctext.setCharacterSize(35);
+								esctext.setString(std::to_string(music_vol));
+								esctext.setPosition(350, 480);	
+							}
+							else if (Escape_option_2==3){
+								esctext.setCharacterSize(35);
+								esctext.setString(sounde_on?"ON":"OFF");
+								esctext.setPosition(310, 595);
+							}
+							else if (Escape_option_2==4){
+								esctext.setCharacterSize(35);
+								esctext.setString(std::to_string(sounde_vol));
+								esctext.setPosition(350, 650);	
+							}
+							else if (Escape_option_2==5){
+								esctext.setCharacterSize(42);
+								esctext.setString("Back");
+                    						esctext.setPosition(67,850);
+							}
+							state_music_t.setString(music_on?"ON":"OFF");
+							mu_vol_t.setString(std::to_string(music_vol));
+							state_se_t.setString(sounde_on?"ON":"OFF");
+							se_vol_t.setString(std::to_string(sounde_vol));
+	                    				while(window.pollEvent(screen2)){
+								if (screen2.type == sf::Event::Closed) {
+									return 0;
 								}
-								else if (Escape_option_2==2){
-									esctext.setCharacterSize(35);
-									esctext.setString(std::to_string(music_vol));
-									esctext.setPosition(350, 480);	
+								if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Down) {								
+									if (sounde_on) Menu_Button.play();
+									Escape_option_2 ++;
+									if (Escape_option_2>=6) Escape_option_2=1;
 								}
-								else if (Escape_option_2==3){
-									esctext.setCharacterSize(35);
-									esctext.setString(sounde_on?"ON":"OFF");
-									esctext.setPosition(310, 595);
+								if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Up) {					
+									if (sounde_on) Menu_Button.play();
+									Escape_option_2 --;
+									if (Escape_option_2<=0) Escape_option_2=6;
 								}
-								else if (Escape_option_2==4){
-									esctext.setCharacterSize(35);
-									esctext.setString(std::to_string(sounde_vol));
-									esctext.setPosition(350, 650);	
-								}
-								else if (Escape_option_2==5){
-									esctext.setCharacterSize(42);
-									esctext.setString("Back");
-                    				esctext.setPosition(67,850);
-								}
-								state_music_t.setString(music_on?"ON":"OFF");
-								mu_vol_t.setString(std::to_string(music_vol));
-								state_se_t.setString(sounde_on?"ON":"OFF");
-								se_vol_t.setString(std::to_string(sounde_vol));
-	                    		while(window.pollEvent(screen2)){
-									if (screen2.type == sf::Event::Closed) {
-										return 0;
-									}
-									if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Down) {
-										
-										if (sounde_on) Menu_Button.play();
-										Escape_option_2 ++;
-										if (Escape_option_2>=6) Escape_option_2=1;
-									}
-									if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Up) {
-										
-										if (sounde_on) Menu_Button.play();
-										Escape_option_2 --;
-										if (Escape_option_2<=0) Escape_option_2=6;
-									}
-									if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Enter && Escape_option_2==5 || screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Escape) {
+								if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Enter && Escape_option_2==5 || screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Escape) {
 									if (sounde_on) Enter_Button.play();
 									Show_Escape_2=0;
 									Escape_option_2=1;
-									}
-									if (screen2.key.code == sf::Keyboard::Right || screen2.key.code == sf::Keyboard::Left) {
-										switch (Escape_option_2){
+								}
+								if (screen2.key.code == sf::Keyboard::Right || screen2.key.code == sf::Keyboard::Left) {
+									switch (Escape_option_2){
 										case 1: 
 											if (screen2.type == sf::Event::KeyReleased) {
 												if (sounde_on) Enter_Button.play();
@@ -897,7 +895,7 @@ int main()
 												if (!music_on) bgMusic2.stop();
 												if (music_on) bgMusic2.play();
 											}
-											break;
+										break;
 										case 2: 
 											if (screen2.key.code == sf::Keyboard::Right) {
 												if (music_vol!=100) {
@@ -913,14 +911,13 @@ int main()
 											}
 											bgMusic.setVolume(music_vol);
 											bgMusic2.setVolume(music_vol);
-											break;
-											
+										break;	
 										case 3: 
 											if (screen2.type == sf::Event::KeyReleased) {
 												sounde_on=!sounde_on;
 												if (sounde_on) Enter_Button.play();
 											}
-											break;
+										break;
 										case 4: 
 											if (screen2.key.code == sf::Keyboard::Right) {
 												if (sounde_vol!=100) {
@@ -946,71 +943,71 @@ int main()
 											bulletMusic.setVolume(sounde_vol);
 											eat_se.setVolume(sounde_vol);
 											playerDied_sf.setVolume(sounde_vol);
-											break;
-										}
+										break;
 									}
-									}
+								}
 							}
-							settings.setString("Settings");
-							highscores.setString("Highscores");
-							title.setString("High Scores");
-							title.setCharacterSize(140);
+						}
+						settings.setString("Settings");
+						highscores.setString("Highscores");
+						title.setString("High Scores");
+						title.setCharacterSize(140);
     						title.setPosition(160, 75);
     						esctext.setCharacterSize(42);
-                    	}
-                    	else if (Escape_option==4) { //Settingsbg
-                    		Show_Escape_2=1;
-                    		esctext.setString("Back");
-                    		esctext.setPosition(67,850);
-                    		while (Show_Escape_2) {
-                    			window.draw(Help_manual);
-                    			window.draw(back);
-                    			window.draw(esctext);
-                    			window.display();
-								window.clear();
-	                    		while(window.pollEvent(screen2)){
-									if (screen2.type == sf::Event::Closed) {
-										return 0;
-									}
-									if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Enter) {
+                    			}
+                    			else if (Escape_option==4) { //Settingsbg
+                    				Show_Escape_2=1;
+                    				esctext.setString("Back");
+                    				esctext.setPosition(67,850);
+                    				while (Show_Escape_2) {
+                    					window.draw(Help_manual);
+                    					window.draw(back);
+                    					window.draw(esctext);
+                    					window.display();
+							window.clear();
+	                    				while(window.pollEvent(screen2)){
+								if (screen2.type == sf::Event::Closed) {
+									return 0;
+								}
+								if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Enter) {
 									if (sounde_on) Enter_Button.play();
 									Show_Escape_2=0;
-									}
 								}
 							}
-                    	}
-                    	else if (Escape_option==5) {
-                    		Show_Escape_2=1;
-                    		esctext.setString("Back");
-                    		esctext.setPosition(67,850);
-                    		while (Show_Escape_2) {
-                    			window.draw(backgroundSprite2);
-                    			window.draw(title);
-                    			window.draw(highscores_int);
-                    			window.draw(names);
-                    			window.draw(back);
-                    			window.draw(esctext);
-                    			window.display();
-								window.clear();
-	                    		while(window.pollEvent(screen2)){
-									if (screen2.type == sf::Event::Closed) {
-										return 0;
-									}
-									if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Enter) {
+						}
+                    			}
+                    			else if (Escape_option==5) {
+                		    		Show_Escape_2=1;
+                    				esctext.setString("Back");
+                    				esctext.setPosition(67,850);
+                    				while (Show_Escape_2) {
+                    					window.draw(backgroundSprite2);
+                    					window.draw(title);
+                    					window.draw(highscores_int);
+                    					window.draw(names);
+                    					window.draw(back);
+                    					window.draw(esctext);
+                    					window.display();
+							window.clear();
+	                    				while(window.pollEvent(screen2)){
+								if (screen2.type == sf::Event::Closed) {
+									return 0;
+								}
+								if (screen2.type == sf::Event::KeyReleased && screen2.key.code == sf::Keyboard::Enter) {
 									if (sounde_on) Enter_Button.play();
 									Show_Escape_2=0;
-									}
 								}
-							}	
-                    	}
-                    	else if (Escape_option==6) {
-                    		Show_Escape=0;
-                    		Show_Main=1;
-                    		if (music_on) bgMusic2.stop();
-                    		if (music_on) bgMusic.play();
-                    	}
-                    	else if (Escape_option==7) return 0;
-                    }
+							}
+						}	
+                    			}
+                    			else if (Escape_option==6) {
+                    				Show_Escape=0;
+                    				Show_Main=1;
+                    				if (music_on) bgMusic2.stop();
+                    				if (music_on) bgMusic.play();
+                    			}
+                    			else if (Escape_option==7) return 0;
+                    			}
 				}
 			}
 		}
@@ -1115,7 +1112,7 @@ int main()
 				spawnCenti(centipede,total_centi); 
 				centi_touched_floor=0;
 				//SPAWNING PLAYER -------------------------------------------
-                player[x] = (gameColumns / 2) * boxPixelsX;
+                		player[x] = (gameColumns / 2) * boxPixelsX;
 				player[y] = (gameColumns * 3 / 4) * boxPixelsY;
 			}
 			else if (lives==1) {
@@ -1150,7 +1147,7 @@ int main()
 							return 0;
 						}
 						if (screen1.type == sf::Event::TextEntered) {
-                       	 	letter = screen1.text.unicode;
+                			       	 	letter = screen1.text.unicode;
 							if (letter == 8) {  //To handle backspace
 								if (i>0) {
 									if (sounde_on) Enter_Button.play();
@@ -1165,8 +1162,8 @@ int main()
 							}
 							else if (letter != '\n') {
 								if (sounde_on) Enter_Button.play();
-                       	 		lettername[i] = letter;
-                       	 		i++;
+                       	 					lettername[i] = letter;
+                       	 					i++;
 							}
 							if (letter == 13 || i==10) {
 								if (sounde_on) Enter_Button.play();
@@ -1192,9 +1189,9 @@ int main()
 				AddInFile='\0';
 				for (int j=0;j<10;j++) {
 					AddInFile += name[j];
-               		AddInFile += " ";
-                	AddInFile += std::to_string(highscore[j]);
-                	AddInFile += "\n";
+               				AddInFile += " ";
+                			AddInFile += std::to_string(highscore[j]);
+                			AddInFile += "\n";
 				}
 				highsco_file.open("highscores.txt");
 				highsco_file << AddInFile;
